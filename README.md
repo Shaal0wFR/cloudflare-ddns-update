@@ -1,4 +1,2 @@
 # cloudflare ddns update
-Because I didn't find any cloudflare ddns update that works, I decided to make mine 
-
-Hope you enjoy it !
+Here you can find the code I made with the cloudflare API to automatically update my IP address on the website I self-host
