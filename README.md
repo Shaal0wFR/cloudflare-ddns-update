@@ -11,7 +11,8 @@ You have to complete these items for the script to work :
 
 -----
 
-You can use this script on every linux that supports curl package.  
+You can use this script on every linux that supports `curl` and `jq` packages. <br>
+You can install them using (for Ubuntu / Debian based OS) : `apt install -y curl jq`
 
 I personnaly put the script in the `/usr/local/sbin` directory, and make a crontab on it with this line :  
 `*/5 * * * * /usr/local/sbin/cloudflare-ddns-update.sh > /dev/null 2>&1`  
