@@ -1,4 +1,4 @@
-Actual_IP=$(curl -s https://api.ipify.org)
+Actual_IP=$(curl -s https://ifconfig.me)
 
 email="" # Your email of connexion to your cloudflare account
 global_key="" # Can be found on https://dash.cloudflare.com/profile/api-tokens
